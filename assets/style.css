@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #243647;
+    color: #fff;
+  }
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+nav h1 {
+    display: flex;
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    min-width: 300px;
+}
+
+nav a {
+    color: #71c2c5;
+    text-decoration: underline 2px;
+    font-weight: bold;
+    text-underline-offset: 5px;
+}
+
+nav a:hover {
+    color: #fff;
+}
