@@ -54,10 +54,6 @@ header {
     height: 75px;
 }
 
-header nav {
-
-}
-
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -67,7 +63,7 @@ nav ul {
 }
 
 nav a {
-    color: #71c2c5;
+    color: var(--lightblue);
     text-decoration: underline 2px;
     font-weight: bold;
     text-underline-offset: 5px;
@@ -131,8 +127,29 @@ nav a:hover {
 
 
 section p a {
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact-me-info {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 3%;
+    border-left: 3px solid var(--darkblue);
+}
+
+.contact-me-info a {
+    color: var(--darkblue);
+    text-decoration: underline 2px;
+    font-weight: bold;
+    text-underline-offset: 5px;
 }
 
 
