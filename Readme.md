@@ -4,3 +4,6 @@ at the moment this webpage is showing contents that is not mine, however i will 
 i have created this based on a screenshot given to us in the coding bootcamp and have tried to replicate the structure
 the main html elements were written first and all sections were subdivided appropriately
 the styles applied aim to make the data displayed more appealing to the eye and also create less friction when attempting to view 
+
+
+Deployment link: https://mbosse97.github.io/my-new-portfolio/ 
